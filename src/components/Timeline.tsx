@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2015 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Professional Tattoo artist.</h3>
+            <h4 className="vertical-timeline-element-subtitle">McAllen, TX</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            Working as a professional tattoo artist, focusing on custom designs in various styles.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2014-2015"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Tattoo Apprentice </h3>
+            <h4 className="vertical-timeline-element-subtitle">El Paso, TX</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            Refined skills and learned tattoo industry techniques at a local shop in El Paso.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2013-2014"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Art Portfolio Development</h3>
+            <h4 className="vertical-timeline-element-subtitle">Tx</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+            Focused on building a portfolio to transition into tattooing after high school.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2005 - 2013"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Self-Taught Artist</h3>
+            <h4 className="vertical-timeline-element-subtitle">Tx</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+            Started drawing characters and exploring various art styles from a young age.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

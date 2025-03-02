@@ -43,48 +43,35 @@ const labelsThird = [
 
 function Expertise() {
     return (
-    <div className="container" id="expertise">
-        <div className="skills-container">
-            <h1>Expertise</h1>
-            <div className="skills-grid">
-                <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+        <div className="container" id="expertise">
+            <div className="skills-container">
+                <h1>Expertise</h1>
+                <div className="skills-grid">
+                    <div className="skill">
+                        <h3>Precision Linework & Detailed Artistry</h3>
+                        <p>I focus on bold, clean linework with fine details that make designs sharp and lasting, whether classic or modern.</p>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <h3>Mastery in Color & Black-and-Gray Techniques</h3>
+                        <p>I’m skilled in both color tattoos and black-and-gray work. I create vibrant color tattoos and deep, realistic black-and-gray pieces with expert shading and contrast.</p>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <h3>Tailored Custom Designs</h3>
+                        <p>I design custom tattoos that capture your vision and tell your personal story.</p>
                     </div>
                 </div>
             </div>
+
+            {/* My Story Section */}
+            <div className="my-story" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', marginTop: '50px', maxWidth: '800px' }}>
+                <h1>My Story</h1>
+                <p>
+                Hey, I’m Johnny, a Texas native and tattoo artist with 9 years of experience. Growing up as a military brat, I was always around art, from drawing cereal box characters to advanced art classes in school. My interest in tattoos grew watching my dad get inked, and after moving to El Paso, I decided to pursue tattooing. After refining my portfolio, I landed a spot at Pricks Tattoo, and the rest is history. I specialize in bold line work, color, black and gray tattoos, and realistic designs.
+                </p>
+            </div>
         </div>
-    </div>
     );
 }
 

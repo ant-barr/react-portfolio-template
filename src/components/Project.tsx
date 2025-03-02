@@ -17,6 +17,12 @@ import IMG_3709 from '../assets/images/IMG_3709.jpg';
 import IMG_3909 from '../assets/images/IMG_3909.jpg';
 import IMG_3992 from '../assets/images/IMG_3992.jpg';
 import IMG_4073 from '../assets/images/IMG_4073.jpg';
+import IMG_4094 from '../assets/images/IMG_4094.jpg';
+import IMG_4171 from '../assets/images/IMG_4171.jpg';
+import IMG_4406 from '../assets/images/IMG_4406.jpg';
+import IMG_4537 from '../assets/images/IMG_4537.jpg';
+import IMG_4598 from '../assets/images/IMG_4598.jpg';
+import IMG_9352 from '../assets/images/IMG_9352.jpg';
 
 
 import '../assets/styles/Project.scss';
@@ -33,48 +39,48 @@ function Project() {
             </div>
             <div className="project">
                 <a><img src={IMG_3709} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a><h2>text here</h2></a>
-                <p>text here.</p>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_4537} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_4171} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_3909} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_4598} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_3622} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_3992} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_3609} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
             <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>text here</h2></a>
-                <p>text here</p>
+                <a><img src={IMG_4094} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2></h2></a>
+                <p></p>
             </div>
         </div>
     </div>
